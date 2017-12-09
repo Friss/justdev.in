@@ -1,0 +1,92 @@
+.background-image {
+  background-image: url(../imgs/mountains.jpg);
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+.out-in-the-open-background {
+  background-image: url(../imgs/subway.jpg);
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+.overlay {
+  background: rgba(32, 23, 19, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.is-align-items-center {
+  align-items: center;
+}
+
+.hero.is-info .subtitle {
+  font-size: 18px;
+  line-height: 1.35em;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff8b38;
+  margin: 0 auto;
+}
+
+.breadcrumb a,
+a {
+  color: rgba(28, 28, 28, 0.9);
+  transition: all 150ms ease-in;
+}
+.breadcrumb a:hover,
+a:hover,
+.breadcrumb a:focus,
+a:focus {
+  color: #ff8b38;
+  text-decoration: none;
+}
+
+h3 {
+  color: #ff8b38;
+  font-size: 14px;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+.links h3 {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+code {
+  color: #ff8b38;
+}
+.button.is-primary.is-outlined {
+  text-shadow: none;
+  background: none;
+  box-shadow: none;
+  color: #ff8b38;
+  border-color: #ff8b38;
+}
+
+.button.is-primary.is-outlined:hover {
+  background: #ff8b38;
+  border-color: #ff8b38;
+  color: white;
+}
+
+::-moz-selection {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+::selection {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
